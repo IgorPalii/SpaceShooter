@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - HangPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
