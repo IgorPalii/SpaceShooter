@@ -13,6 +13,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 604dc8985e9216b439fe7b2a53a32182, type: 3}
     - target: {fileID: 306126592360612042, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 306126592360612042, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 306126592360612042, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 306126592360612042, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
       objectReference: {fileID: 0}
@@ -20,6 +32,7 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Direction","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Health","value":{"$content":30,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 6148948601255232274, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
@@ -45,6 +58,14 @@ PrefabInstance:
     - target: {fileID: 6689968116975200284, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
       propertyPath: m_Name
       value: Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253352080555885950, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8253352080555885950, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8253352080555885950, guid: 9e643d4b97e99dd4c88208022675352d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -137,8 +158,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.047721624, y: 0}
-  m_Size: {x: 0.6975255, y: 1.171875}
+  m_Offset: {x: -0.053110838, y: 0.0017964244}
+  m_Size: {x: 1.0101113, y: 1.7000369}
   m_Direction: 0
 --- !u!95 &7688916379116188526
 Animator:
@@ -198,6 +219,6 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.044911385, y: 0.003592968}
-  m_Size: {x: 0.676054, y: 1.1509032}
+  m_Offset: {x: -0.06467247, y: -0.0041915774}
+  m_Size: {x: 1.0101976, y: 1.7125989}
   m_Direction: 0
